@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Reality Toolkit Blog</title>
-        <link>https://realitycollective.github.io/blog</link>
+        <link>https://www.realitytoolkit.io/blog</link>
         <description>Reality Toolkit Blog</description>
         <lastBuildDate>Tue, 24 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,7 +10,7 @@
         <language>en</language>
         <item>
             <title><![CDATA[Welcome to our new docs page!]]></title>
-            <link>https://realitycollective.github.io/blog/welcome</link>
+            <link>https://www.realitytoolkit.io/blog/welcome</link>
             <guid>welcome</guid>
             <pubDate>Tue, 24 May 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Our official documentation page]]></description>
@@ -21,7 +21,7 @@
         </item>
         <item>
             <title><![CDATA[Using the Reality Toolkit project generator for new packages]]></title>
-            <link>https://realitycollective.github.io/blog/project-template</link>
+            <link>https://www.realitytoolkit.io/blog/project-template</link>
             <guid>project-template</guid>
             <pubDate>Sun, 13 Mar 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[To generate a new project for the Reality Toolkit, we have provided a handy repository generator that includes everything you need to get started.]]></description>
