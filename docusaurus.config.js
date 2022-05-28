@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Reality Toolkit',
   tagline: 'Official documentation for the Reality Toolkit by the Reality Collective',
-  url: 'https://realitycollective.github.io',
+  url: 'https://www.realitytoolkit.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   organizationName: 'realitycollective',
-  projectName: 'realitycollective.github.io',
+  projectName: 'com.realitytoolkit.docs',
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
@@ -28,12 +28,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/realitycollective/realitycollective.github.io/edit/development/',
+            'https://github.com/realitycollective/com.realitytoolkit.docs/edit/main/',
         },
         blog: {
           showReadingTime: true,
           editUrl:
-            'https://github.com/realitycollective/realitycollective.github.io/edit/development/',
+            'https://github.com/realitycollective/com.realitytoolkit.docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
