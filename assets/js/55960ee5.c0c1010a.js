@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreality_toolkit_docs=self.webpackChunkreality_toolkit_docs||[]).push([[121],{8070:function(e){e.exports=JSON.parse('[{"label":"Template","permalink":"/docs/tags/template","count":1},{"label":"Generator","permalink":"/docs/tags/generator","count":1},{"label":"Module","permalink":"/docs/tags/module","count":1}]')}}]);
