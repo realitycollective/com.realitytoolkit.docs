@@ -1,8 +1,7 @@
 ---
-slug: project-template
-title: Using the Reality Toolkit project generator for new packages
-authors: [simon]
-tags: [upm, reality, toolkit]
+sidebar_label: 'Repository Template Generator'
+sidebar_position: 1
+tags: [Template, Generator, Module]
 ---
 
 # Reality Collective - Repository Template Generator
@@ -20,7 +19,7 @@ Using the Template generator is very easy:
     
     <br/>
 
-    ![use this template button](use-this-template-button.png)
+    ![use this template button](/img/use-this-template-button.png)
 
     Or
 
@@ -28,7 +27,7 @@ Using the Template generator is very easy:
     
     <br/>
 
-    ![create new repository and selecting template](create-repository.png)
+    ![create new repository and selecting template](/img/create-repository.png)
 
 > Please make sure to select the "**include all branches**" option before clicking "*Create repository*"
 
@@ -138,12 +137,12 @@ Go to the "Settings" tab for the repository and in the "General" section, valida
     * Enable "Always suggest updating pull request branches"
     * Enable "Automatically delete head branches"
 
-![Repository default settings](repository-settings.png)
+![Repository default settings](/img/repository-settings.png)
 
 
 ## 15. Go to the GitHub Repository "**Branches**" section and add branch protections for main, development and feature/*
 
-![](branch-settings.png)
+![](/img/branch-settings.png)
 
 For each branch, enable the following settings:
 
@@ -154,7 +153,7 @@ For each branch, enable the following settings:
     * Require branches to be up to date before merging
     * Require conversation resolution before merging
 
-![](branch-protections.png)
+![](/img/branch-protections.png)
 
 
 ## 16. Once the initial check-in actions are complete, remove all pre-failed Actions runs (to tidy up)

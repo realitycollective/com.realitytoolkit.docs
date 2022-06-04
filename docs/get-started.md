@@ -3,7 +3,7 @@ sidebar_label: 'Get Started'
 sidebar_position: 1
 ---
 
-# Getting Started
+# Get Started
 
 Developing Mixed Reality Applications in Unity is hard, and we know there are many developers who are frustrated with the current state of both game and general application development within the Mixed Reality ecosystem: a quickly developing market that encompasses the whole spectrum from Mobile Augmented Reality to high-end Virtual Reality.
 
