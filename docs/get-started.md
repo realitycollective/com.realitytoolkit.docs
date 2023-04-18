@@ -23,8 +23,8 @@ We’d like to invite all the major hardware vendors to help guide their platfor
 
 The simplest way to getting started using the core platform package in your project is via OpenUPM. Visit [OpenUPM](https://openupm.com/docs/) to learn more about it. Once you have the OpenUPM CLI set up use the following command to add the package to your project:
 
-```
-`openupm add com.realitytoolkit.core`
+```text
+    openupm add com.realitytoolkit.core
 ```
 
 > For more details on using [OpenUPM CLI, check the docs here](https://github.com/openupm/openupm-cli#installation).
