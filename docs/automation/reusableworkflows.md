@@ -18,12 +18,11 @@ Below is a list of all the current workflows, their arguments and an overview of
 
 ### Run Unity UPM Build
 
-*Script Name: rununityUPMbuild.yml*
+  *Script Name: rununityUPMbuild.yml*
 
 Builds a UPM package from the repository (repository MUST be in UPM format) for Android, Standalone and UWP on a Windows host.
 
 > Requires a Windows host setup with NodeJS, PowerShell 7 and Unity for the version to build on.
-
 
 |Parameter|Mandatory|Type|Description|
 |-|-|-|-|
@@ -34,7 +33,7 @@ See [Package Dependencies](#package-dependencies) for more details on building d
 
 ### Run Multi-Version Unity UPM Build
 
-*Script Name: rununityUPMbuildmultiversion.yml*
+  *Script Name: rununityUPMbuildmultiversion.yml*
 
 A multiple Unity version build script of the above UPM build script.  Runs with a pre-configured matrix of Major Unity versions on a Windows Host.
 
@@ -48,7 +47,7 @@ See [Package Dependencies](#package-dependencies) for more details on building d
 
 ### Tag Release
 
-*Script Name: tagrelease.yml*
+  *Script Name: tagrelease.yml*
 
 Creates a TAG release using the version number supplied in the parameters.
 
@@ -59,7 +58,7 @@ Creates a TAG release using the version number supplied in the parameters.
 
 ### UpVersion and Tag Release
 
-*Script Name: upversionandtagrelease.yml*
+  *Script Name: upversionandtagrelease.yml*
 
 Performs a managed version upgrade of the "Package.json" in the repository and creates a TAG release once complete.
 
@@ -82,7 +81,7 @@ Performs a managed version upgrade of the "Package.json" in the repository and c
 
 ### Get Package version from Package
 
-*Script Name: getpackageversionfrompackage.yml*
+  *Script Name: getpackageversionfrompackage.yml*
 
 Queries the Project.json definition of a package/folder and returns the current version number.
 
@@ -94,7 +93,7 @@ Queries the Project.json definition of a package/folder and returns the current 
 
 ### Get Unity version from Package
 
-*Script Name: getunityversionfrompackage.yml*
+  *Script Name: getunityversionfrompackage.yml*
 
 Queries the Project.json definition of a package/folder and returns the current minimum Unity version number.
 
@@ -106,7 +105,7 @@ Queries the Project.json definition of a package/folder and returns the current 
 
 ### Get Unity version from Project
 
-*Script Name: getunityversionfromproject.yml*
+  *Script Name: getunityversionfromproject.yml*
 
 Queries the "ProjectVersion.txt" file of a Unity project and returns its current Unity Version number definition.
 
@@ -118,7 +117,7 @@ Queries the "ProjectVersion.txt" file of a Unity project and returns its current
 
 ### Refresh Branch
 
-*Script Name: refreshbranch.yml*
+  *Script Name: refreshbranch.yml*
 
 Pull changes from an upstream branch and merges then into the target branch.
 E.G. Updating the Development branch with the recently merged changes in Main following a release.
@@ -131,7 +130,7 @@ E.G. Updating the Development branch with the recently merged changes in Main fo
 
 ### Validate Unity Install
 
-*Script Name: validateunityinstall.yml*
+  *Script Name: validateunityinstall.yml*
 
 A simple check script to validate the runner host environment for a specific version of Unity, supports both minimum (2020.3) and full (2020.3.16 / 2020.3.16f1) version numbers as input.
 
@@ -146,7 +145,7 @@ A simple check script to validate the runner host environment for a specific ver
 
 ### Test Parameters
 
-*Script Name: testparams.yml*
+  *Script Name: testparams.yml*
 
 A simple test script that outputs to the log the output from another job/step.
 
@@ -171,7 +170,7 @@ Example use:
 
 ### Install Unity Editor (maintained for reference - unused)
 
-*Script Name: installunityeditor.yml*
+  *Script Name: installunityeditor.yml*
 
 A deprecated script intended to be used to install a version of Unity if it was not found.  Deprecated because the Unity-Hub install was unreliable.
 

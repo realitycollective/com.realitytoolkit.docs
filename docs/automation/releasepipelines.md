@@ -29,7 +29,8 @@ The steps of the workflow are as follows:
 
 2. Validate Unity
     Validates the build server environment to check there is a version of Unity installed for the packages requested release.
-At this time we have suspended automatically installing the required / latest version of Unity as the Unity hub is too unreliable to depend on, instead the latest build of Unity is used for the requested Minor version (e.g. 2021.3.25 for requested version 2021.3)
+
+> At this time we have suspended automatically installing the required / latest version of Unity as the Unity hub is too unreliable to depend on, instead the latest build of Unity is used for the requested Minor version (e.g. 2021.3.25 for requested version 2021.3)
 
 3. Run Unit Tests and build
     Runs all defined Unit tests for the UPM package and performs test builds on the supported operating systems for the target version of Unity.
