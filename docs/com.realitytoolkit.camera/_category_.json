@@ -1,0 +1,8 @@
+{
+  "label": "com.realitytoolkit.camera",
+  "position": 2,
+  "link": {
+    "type": "generated-index",
+    "description": "Learn how to use the RealityToolkit.Camera package in your project."
+  }
+}
