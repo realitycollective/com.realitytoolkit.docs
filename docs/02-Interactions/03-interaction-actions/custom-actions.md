@@ -72,7 +72,7 @@ public class ForcePushAction : BaseInteractionAction
 ```
 
 Alright, we are almost there. All that is left to do now is make the component push away the interactable when we
-stop interacting with it. We will be using our custom action together with the toolkit's default `TranslateAction`
+stop interacting with it. We will be using our custom action together with some of the toolkit's default actions 
 to grab the object and move it around and then when we "drop it", our force push should kick in and do its job.
 
 :::tip
@@ -136,15 +136,16 @@ in the scene and thus have a position. We use that position to determine the dir
 
 ## Using your action
 
-Create a primitive `GameObject`, such as a cube or sphere in your scene. Then attach the `Interactable` component to it and also the `TranslateAction` and the
-just created `ForcePushAction`. Configure the input events on the `Interactable` and make it only react to far interaction for simplicity, since our custom action
-is not designed to work with direction interaction. Your GameObject configuration should look similar to this:
+Create a primitive `GameObject`, such as a cube or sphere in your scene. Then attach the `Interactable` component to it and also the `FocusLockAction`, `UpdateRigidbodyAction`, `TranslateAction` and the just created `ForcePushAction`. Configure the input events on the `Interactable` and make it only react to far interaction for simplicity, since our custom action is not designed to work with direction interaction. Your GameObject configuration should look similar to this:
 
 ![Configured Interactable](img/custom-action-on-gameobject.png)
 
 :::tip
 
-Once again, notice how we make use of the existing `TranslateAction` to perform the "telekinesis" aspect of our power.
+Once again, notice how we make use of the existing actions to perform the "telekinesis" aspect of our power.
+The `FocusLockAction` makes sure that the interactor focus is kept on the interactable while we are interacting with it. After that the `UpdateRigidbodyAction`
+makes sure the Rigidbody is configured properly to discard gravity while we are "force holding" the object. `TranslateAction` performs the actual telekinesis and
+last but not least our custom action does the force push.
 
 :::
 
