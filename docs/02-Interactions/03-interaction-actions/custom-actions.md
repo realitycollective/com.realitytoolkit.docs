@@ -115,7 +115,7 @@ public class ForcePushAction : BaseInteractionAction
         {
             // We determine the direction of our force push using the interactor's position in the scene
             // and the interactable's position and normalize it.
-            var forceDirection = (controllerInteractor.GameObject.transform.position - transform.position).normalized;
+            var forceDirection = (transform.position - controllerInteractor.GameObject.transform.position).normalized;
 
             // Scale by our configured for power.
             forceDirection = forcePower * forceDirection;
