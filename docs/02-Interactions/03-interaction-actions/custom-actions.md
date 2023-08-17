@@ -1,6 +1,5 @@
 ---
-sidebar_position: 1
-sidebar_label: Custom Actions
+sidebar_position: 2
 ---
 
-# Custom Interaction Actions
+# How To Write Your Own Actions
