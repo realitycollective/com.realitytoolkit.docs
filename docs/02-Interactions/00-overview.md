@@ -1,6 +1,6 @@
 # Overview
 
-Similar to other XR toolkit's for Unity the Reality Toolkit comes with its own interaction framework, designed to get you up and running quickly implementing immersive apps and games with modern interactions.
+Similar to other XR toolkits for Unity the Reality Toolkit comes with its own interaction framework, designed to get you up and running quickly implementing immersive apps and games with modern interactions.
 
 The Reality Toolkit interaction framework is a love-child of Unity's `XRI` package and `MRTK`. If none of those two rings a bell for you, don't worry, you don't need to be familiar with those to use interactions with Reality Toolkit.
 
