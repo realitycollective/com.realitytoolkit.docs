@@ -1,8 +1,7 @@
 {
-    "label": "Interactables",
-    "link": {
-      "type": "generated-index",
-      "description": "Learn more about Interactables in the Reality Toolkit interaction framework."
-    }
+  "label": "Interactables",
+  "link": {
+    "type": "generated-index",
+    "description": "Learn more about Interactables in the Reality Toolkit interaction framework."
   }
-  
+}
