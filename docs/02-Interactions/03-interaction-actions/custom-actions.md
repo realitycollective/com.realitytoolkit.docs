@@ -117,7 +117,7 @@ public class ForcePushAction : BaseInteractionAction
             // and the interactable's position and normalize it.
             var forceDirection = (transform.position - controllerInteractor.GameObject.transform.position).normalized;
 
-            // Scale by our configured for power.
+            // Scale by our configured force power.
             forceDirection = forcePower * forceDirection;
 
             // Finally add the force push to the rigidboy.
