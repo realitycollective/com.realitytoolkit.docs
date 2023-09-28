@@ -23,7 +23,7 @@ convenient location on your controller visualization.
 ## Teleport Interactor
 
 The `TeleportInteractor` is a special interactor used to teleport from one location to another. It interacts with your app or game
-environment to determine  the target position.
+environment to determine the target position.
 
 :::caution
 
