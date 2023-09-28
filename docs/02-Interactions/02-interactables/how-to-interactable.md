@@ -21,4 +21,4 @@ Make sure to take a look to understand the purpose of each setting.
 :::
 
 Congratulations! Your object is now interactable but it will not do anything when interacted with unless
-you add `Interaction Action`s to it. Keep on reading to learn about out of the box provided actions.
+you add `Interaction Behaviour`s to it. Keep on reading to learn about out of the box provided behaviours.
