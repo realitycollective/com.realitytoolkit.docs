@@ -1,6 +1,6 @@
 ---
 sidebar_label: 'Repository Template Generator'
-sidebar_position: 1
+sidebar_position: 0
 tags: [Template, Generator, Module]
 ---
 

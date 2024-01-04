@@ -1,0 +1,7 @@
+{
+  "label": "Creating a new toolkit module",
+  "link": {
+    "type": "generated-index",
+    "description": "To generate a new module for the Reality Toolkit, we have provided a handy repository generator. It will set up your git repository as a Unity UPM package for use with the toolkit. Read on to learn more."
+  }
+}
