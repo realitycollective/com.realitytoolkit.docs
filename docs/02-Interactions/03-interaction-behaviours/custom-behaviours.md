@@ -12,8 +12,6 @@ behaviour.
 
 Create a new script in your project and name it `ForcePushBehaviour`:
 
-![Force Push Behaviour Script](img/custom-behaviour-script.png)
-
 Double click it to open it in your favourite code editor. You are now looking at an empty `MonoBehaviour`.
 Clean it up and remove the default MonoBehaviour callbacks:
 
