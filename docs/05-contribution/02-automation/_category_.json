@@ -1,6 +1,5 @@
 {
   "label": "Automation",
-  "position": 4,
   "link": {
     "type": "generated-index",
     "description": "Explore the automation designed for building and managing a Unity project and UPM packages maintained by the Reality Collective"

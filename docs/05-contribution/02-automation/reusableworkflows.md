@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Reusable workflows
+# Reusable Workflows
 
 The Reality Collective in its aim to remain open and sharing makes al of its automation pipelines available for any team to use, these can be found in our "[Reusable Workflows](https://github.com/realitycollective/reusableworkflows) repository.
 
