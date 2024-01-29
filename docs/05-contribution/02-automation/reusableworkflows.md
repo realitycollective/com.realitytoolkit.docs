@@ -184,7 +184,7 @@ A deprecated script intended to be used to install a version of Unity if it was 
 
 Dependency option requires an input string in json format, listing each dependency by **branch name** and **git url**, e.g.
 
-> $dependencies = '[{"ASADependencies": "github.com/SimonDarksideJ/upmGithubActionsTests.git"}]'
+> `$dependencies = '[{"ASADependencies": "github.com/SimonDarksideJ/upmGithubActionsTests.git"}]'`
 
 **Note** remove the **"https://"** portion to allow using a PAT to access the repo
 The Name of the dependency should ALSO MATCH the name of the branch on the repository where the dependency is held (files intended for the packages folder)

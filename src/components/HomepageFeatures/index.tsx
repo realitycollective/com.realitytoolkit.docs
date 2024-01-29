@@ -1,5 +1,5 @@
-import React from 'react';
 import clsx from 'clsx';
+import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 type FeatureItem = {
@@ -10,30 +10,32 @@ type FeatureItem = {
 
 const FeatureList: FeatureItem[] = [
   {
-    title: 'Made for XR',
-    Svg: require('@site/static/img/undraw_augmented_reality_re_f0qd.svg').default,
+    title: 'Easy to Use',
+    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        The Reality Toolkit was designed from the ground up to aid with mixed reality development. Be it AR, VR or XR,
-        the toolkit comes with useful services and components to kickstart your development journey!
+        Docusaurus was designed from the ground up to be easily installed and
+        used to get your website up and running quickly.
       </>
     ),
   },
   {
-    title: 'Powered by Community',
-    Svg: require('@site/static/img/undraw_online_discussion_re_nn7e.svg').default,
+    title: 'Focus on What Matters',
+    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Stuck with a problem or need help with an issue? Join our community over on <a href="https://discord.gg/YjHAQD2XT8">Discord</a> and everyone's happy to help!
+        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
+        ahead and move your docs into the <code>docs</code> directory.
       </>
     ),
   },
   {
-    title: 'Open Source',
-    Svg: require('@site/static/img/undraw_open_source_-1-qxw.svg').default,
+    title: 'Powered by React',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        The toolkit is free to use and source code is available on <a href="https://github.com/realitycollective/realitytoolkit.dev">GitHub</a>. Need a feature or found a bug? <a href="https://github.com/realitycollective/realitytoolkit.dev/issues">File an issue or submit a pull request</a>!
+        Extend or customize your website layout by reusing React. Docusaurus can
+        be extended while reusing the same header and footer.
       </>
     ),
   },
@@ -46,7 +48,7 @@ function Feature({title, Svg, description}: FeatureItem) {
         <Svg className={styles.featureSvg} role="img" />
       </div>
       <div className="text--center padding-horiz--md">
-        <h3>{title}</h3>
+        <Heading as="h3">{title}</Heading>
         <p>{description}</p>
       </div>
     </div>
