@@ -3,6 +3,19 @@ import type { Config } from '@docusaurus/types';
 import type * as Preset from '@docusaurus/preset-classic';
 
 const config: Config = {
+  plugins: [
+    async function myPlugin(context, options) {
+      return {
+        name: "docusaurus-tailwindcss",
+        configurePostCss(postcssOptions) {
+          // Appends TailwindCSS and AutoPrefixer.
+          postcssOptions.plugins.push(require("tailwindcss"));
+          postcssOptions.plugins.push(require("autoprefixer"));
+          return postcssOptions;
+        },
+      };
+    },
+  ],
   title: 'Reality Toolkit',
   tagline: 'Official documentation for the Reality Toolkit by the Reality Collective',
   favicon: 'img/favicon.ico',
@@ -104,10 +117,15 @@ const config: Config = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Reality Collective. Built with Docusaurus.`,
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: true,
+      respectPrefersColorScheme: false
+    },
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
-    },
+    }
   } satisfies Preset.ThemeConfig,
 };
 

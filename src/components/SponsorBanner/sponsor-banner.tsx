@@ -4,7 +4,7 @@ import codeEffectLogo from './logo-codeeffect.svg';
 
 const SponsorBanner: FunctionComponent = () => {
     return (
-        <div className={styles.container}>
+        <div className="container mx-auto text-center py-24 bg-blue-500">
             <img src='./logo-codeeffect.svg' title="CodeEffect" alt="CodeEffect" />
             Enterprise VR and AR consulting and development
         </div>
