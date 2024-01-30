@@ -45,13 +45,12 @@ const config: Config = {
     ],
   ],
   themeConfig: {
-    // Replace with your project's social card
-    image: 'img/docusaurus-social-card.jpg',
+    image: 'https://github.com/realitycollective/realitycollective.logo/blob/main/RealityToolkit/RepoBanners/com.realitytoolkit.core.png?raw=true',
     navbar: {
       title: 'Reality Toolkit',
       logo: {
         alt: 'Reality Collective',
-        src: 'img/logo.svg'
+        src: 'https://github.com/realitycollective/realitycollective.logo/blob/main/Branding/RealityCollective_IconLogo.png?raw=true'
       },
       items: [
         {

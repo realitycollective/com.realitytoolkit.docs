@@ -6,7 +6,7 @@ export default function Home(): JSX.Element {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title='Home'
       description={`${siteConfig.tagline}`}
       noFooter={true}>
       <main>
