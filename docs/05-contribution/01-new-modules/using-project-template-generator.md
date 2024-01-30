@@ -19,7 +19,7 @@ Using the Template generator is very easy:
     
     <br/>
 
-    ![use this template button](/img/use-this-template-button.png)
+    ![use this template button](img/use-this-template-button.png)
 
     Or
 
@@ -27,7 +27,7 @@ Using the Template generator is very easy:
     
     <br/>
 
-    ![create new repository and selecting template](/img/create-repository.png)
+    ![create new repository and selecting template](img/create-repository.png)
 
 > Please make sure to select the "**include all branches**" option before clicking "*Create repository*"
 
@@ -86,7 +86,7 @@ E.G.
 
 Inside the "\.github\workflows\buildupmpackages.yml" script, there is a section towards the end named "Run Unit Tests".  It has a section called "dependencies" which is pre-filled in with an entry to the RealityToolkit.core project.
 
-The configuration follows a json strructure, so simply add another {key:value} section in the array.  For an example of multiple dependencies, check the configuration in the [SpatialPersistence.asa build file](https://github.com/realitycollective/com.realitytoolkit.spatial-persistence.asa/blob/464fe2f2ecca423ca02ace1955a9a7004cf7b493/.github/workflows/buildupmpackages.yml#L54)
+The configuration follows a json strructure, so simply add another `{key:value}` section in the array.  For an example of multiple dependencies, check the configuration in the [SpatialPersistence.asa build file](https://github.com/realitycollective/com.realitytoolkit.spatial-persistence.asa/blob/464fe2f2ecca423ca02ace1955a9a7004cf7b493/.github/workflows/buildupmpackages.yml#L54)
 
 > Additional instructions on how this works are included in the [source build pipeline file here](https://github.com/realitycollective/reusableworkflows/blob/73475e0c6c40d1ab142fce0fb2d72a6520a4343e/.github/workflows/rununityunittests.yml#L121)
 
@@ -137,12 +137,12 @@ Go to the "Settings" tab for the repository and in the "General" section, valida
     * Enable "Always suggest updating pull request branches"
     * Enable "Automatically delete head branches"
 
-![Repository default settings](/img/repository-settings.png)
+![Repository default settings](img/repository-settings.png)
 
 
 ## 15. Go to the GitHub Repository "**Branches**" section and add branch protections for main, development and feature/*
 
-![](/img/branch-settings.png)
+![](img/branch-settings.png)
 
 For each branch, enable the following settings:
 
@@ -153,7 +153,7 @@ For each branch, enable the following settings:
     * Require branches to be up to date before merging
     * Require conversation resolution before merging
 
-![](/img/branch-protections.png)
+![](img/branch-protections.png)
 
 
 ## 16. Once the initial check-in actions are complete, remove all pre-failed Actions runs (to tidy up)
