@@ -107,7 +107,7 @@ const config: Config = {
           ],
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Reality Collective. Built with Docusaurus.`,
+      copyright: `Copyright © 2022-${new Date().getFullYear()} Reality Collective. All rights reserved.`,
     },
     colorMode: {
       defaultMode: 'dark',
