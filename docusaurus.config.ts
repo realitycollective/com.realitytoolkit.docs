@@ -60,14 +60,24 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          href: 'https://discord.gg/YjHAQD2XT8',
-          label: 'Join Us On Discord',
-          position: 'left'
+          href: 'community',
+          position: 'left',
+          label: 'Community'
         },
         {
-          href: 'https://github.com/realitycollective/realitytoolkit.dev',
-          label: 'GitHub',
-          position: 'right'
+          href: 'showcase',
+          position: 'left',
+          label: 'Showcase'
+        },
+        {
+          href: 'sponsors',
+          position: 'left',
+          label: 'Sponsors'
+        },
+        {
+          href: 'about',
+          position: 'left',
+          label: 'About'
         }
       ]
     },
@@ -97,7 +107,7 @@ const config: Config = {
           ],
         }
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Reality Collective. Built with Docusaurus.`,
+      copyright: `Copyright © 2022-${new Date().getFullYear()} Reality Collective. All rights reserved.`,
     },
     colorMode: {
       defaultMode: 'dark',
