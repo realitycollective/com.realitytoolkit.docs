@@ -60,9 +60,24 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          href: 'https://discord.gg/YjHAQD2XT8',
-          label: 'Join Us On Discord',
-          position: 'left'
+          href: 'community',
+          position: 'left',
+          label: 'Community'
+        },
+        {
+          href: 'showcase',
+          position: 'left',
+          label: 'Showcase'
+        },
+        {
+          href: 'sponsors',
+          position: 'left',
+          label: 'Sponsors'
+        },
+        {
+          href: 'about',
+          position: 'left',
+          label: 'About'
         },
         {
           href: 'https://github.com/realitycollective/realitytoolkit.dev',
