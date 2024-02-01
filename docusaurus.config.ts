@@ -78,11 +78,6 @@ const config: Config = {
           href: 'about',
           position: 'left',
           label: 'About'
-        },
-        {
-          href: 'https://github.com/realitycollective/realitytoolkit.dev',
-          label: 'GitHub',
-          position: 'right'
         }
       ]
     },
