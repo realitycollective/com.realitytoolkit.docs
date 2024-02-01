@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreality_toolkit=self.webpackChunkreality_toolkit||[]).push([[6059],{6876:(t,e,i)=>{i.r(e),i.d(e,{default:()=>o});var n=i(2263),l=i(6040),s=i(5893);function o(){const{siteConfig:t}=(0,n.Z)();return(0,s.jsx)(l.Z,{title:"About",description:`${t.tagline}`,children:(0,s.jsx)("main",{})})}}}]);

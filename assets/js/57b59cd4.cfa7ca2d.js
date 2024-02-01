@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkreality_toolkit=self.webpackChunkreality_toolkit||[]).push([[6849],{2592:(t,i,e)=>{e.r(i),e.d(i,{default:()=>o});var n=e(2263),l=e(6040),s=e(5893);function o(){const{siteConfig:t}=(0,n.Z)();return(0,s.jsx)(l.Z,{title:"Community",description:`${t.tagline}`,children:(0,s.jsx)("main",{})})}}}]);
