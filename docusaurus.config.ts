@@ -60,22 +60,22 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          href: 'community',
+          href: '/community',
           position: 'left',
           label: 'Community'
         },
         {
-          href: 'showcase',
+          href: '/showcase',
           position: 'left',
           label: 'Showcase'
         },
         {
-          href: 'sponsors',
+          href: '/sponsors',
           position: 'left',
           label: 'Sponsors'
         },
         {
-          href: 'about',
+          href: '/about',
           position: 'left',
           label: 'About'
         }
