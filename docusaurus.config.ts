@@ -65,6 +65,11 @@ const config: Config = {
           label: 'Community'
         },
         {
+          href: '/packages',
+          position: 'left',
+          label: 'Packages'
+        },
+        {
           href: '/showcase',
           position: 'left',
           label: 'Showcase'
