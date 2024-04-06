@@ -5,7 +5,7 @@ export interface YouTubeVideoProps {
 }
 
 const YouTubeVideo: FunctionComponent<YouTubeVideoProps> = (props) => (
-    <div className="video-responsive">
+    <div className="flex justify-center align-center">
         <iframe
             width="853"
             height="480"
