@@ -60,11 +60,6 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          href: '/community',
-          position: 'left',
-          label: 'Community'
-        },
-        {
           href: '/packages',
           position: 'left',
           label: 'Packages'
@@ -75,14 +70,14 @@ const config: Config = {
           label: 'Showcase'
         },
         {
+          href: '/community',
+          position: 'left',
+          label: 'Community'
+        },
+        {
           href: '/sponsors',
           position: 'left',
           label: 'Sponsors'
-        },
-        {
-          href: '/about',
-          position: 'left',
-          label: 'About'
         }
       ]
     },

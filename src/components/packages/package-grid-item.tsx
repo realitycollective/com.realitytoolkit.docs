@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import Paragraph from "../typo/paragraph";
+import Text from "../typography/text";
 
 export interface PackageGridItemProps {
     packageName: string;
@@ -8,16 +8,17 @@ export interface PackageGridItemProps {
 
 const PackageGridItem: FunctionComponent<PackageGridItemProps> = (props) => {
     return (
-        <div className="bg-[#242526] rounded-lg overflow-hidden">
-            <div className="relative bg-white">
-                <img className="object-cover" src={`https://github.com/realitycollective/realitycollective.logo/raw/main/RealityToolkit/RepoBanners/${props.packageIdentifier}.png?raw=true`} alt="Core" />
-            </div>
+        <a target="_blank" className="text-inherit hover:no-underline drop-shadow-md md:transition-all md:duration-300 md:hover:scale-105" href={`https://github.com/realitycollective/${props.packageIdentifier}`}>
+            <div className="bg-[#242526] rounded-lg overflow-hidden">
+                <div className="relative bg-white">
+                    <img className="object-cover block" src={`https://github.com/realitycollective/realitycollective.logo/raw/main/RealityToolkit/RepoBanners/${props.packageIdentifier}.png?raw=true`} alt={props.packageName} />
+                </div>
 
-            <div>
-                <Paragraph>{props.packageName}</Paragraph>
-                <span>{props.packageIdentifier}</span>
+                <div className="p-4">
+                    <Text compact>{props.packageName}</Text>
+                </div>
             </div>
-        </div>
+        </a>
     );
 };
 
