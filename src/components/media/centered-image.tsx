@@ -1,15 +1,9 @@
 import { FunctionComponent } from "react";
+import Image, { ImageProps } from "./image";
 
-export interface CenteredImageProps {
-    alt: string;
-    src: string;
-}
-
-const CenteredImage: FunctionComponent<CenteredImageProps> = (props) => (
-    <span style={{
-        textAlign: 'center'
-    }}>
-        <img src={props.src} alt={props.alt} />
+const CenteredImage: FunctionComponent<ImageProps> = (props) => (
+    <span className="flex justify-center py-2 md:py-4">
+        <Image {...props} />
     </span>
 );
 

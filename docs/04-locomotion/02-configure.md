@@ -1,0 +1,73 @@
+---
+sidebar_position: 2
+---
+
+import CenteredImage from '@site/src/components/media/centered-image';
+import locomotionServiceProfileImage from './img/locomotion-service-profile.png';
+
+# Configure the service
+
+Now that the service is registered, let's take a look at configuration options.
+
+<CenteredImage src={locomotionServiceProfileImage} alt="The locomotion service profile." />
+
+
+## Startup Behaviour
+
+There is three settings related to locomotion startup behaviour in total.
+
+### Locomotion Startup Behaviour
+
+This setting defines whether locomotion is enabled or disabled on application launch on a global level. Settings this setting to `Manual Start` will also disable free movement and teleportation on app launch, regardless of their individiual startup behaviour.
+
+#### Runtime API
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().LocomotionEnabled = false;
+```
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().LocomotionEnabled = true;
+```
+
+### Movement Startup Behaviour
+
+This settings defines whether free movement will be available immediately after the application has launched.
+
+#### Runtime API
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().MovementEnabled = false;
+```
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().MovementEnabled = true;
+```
+
+### Teleport Startup Behaviour
+
+This settings defines whether teleportation will be available immediately after the application has launched.
+
+#### Runtime API
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().TeleportationEnabled = false;
+```
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().TeleportationEnabled = true;
+```
+
+## Teleport Cooldown
+
+This defaults to `0`, meaning that your player can teleport right after completing a teleportation. Settings this value to e.g. `1`, will induce a one second cooldown phase after a teleport. Your player will only be able to teleport again, once the cooldown phase has ended.
+
+```csharp
+ServiceManager.Instance.GetService<ILocomotionService>().TeleportCooldownDuration = 1f;
+```
+
+```csharp
+var isCoolingDown = ServiceManager.Instance.GetService<ILocomotionService>().IsTeleportCoolingDown;
+```
+
+## Locomotion Service Modules
