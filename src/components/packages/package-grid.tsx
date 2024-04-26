@@ -9,6 +9,7 @@ const PackageGrid: FunctionComponent = () => {
             <PackageGridItem packageName="RealityToolkit.Locomotion" packageIdentifier="com.realitytoolkit.locomotion" />
             <PackageGridItem packageName="RealityToolkit.MetaPlatform" packageIdentifier="com.realitytoolkit.metaplatform" />
             <PackageGridItem packageName="RealityToolkit.Pico" packageIdentifier="com.realitytoolkit.pico" />
+            <PackageGridItem packageName="RealityToolkit.Samples" packageIdentifier="com.realitytoolkit.samples" />
         </div>
     );
 };

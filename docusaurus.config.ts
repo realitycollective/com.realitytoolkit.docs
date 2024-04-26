@@ -70,14 +70,10 @@ const config: Config = {
           label: 'Showcase'
         },
         {
-          href: '/community',
+          type: 'docSidebar',
+          sidebarId: 'communitySidebar',
           position: 'left',
           label: 'Community'
-        },
-        {
-          href: '/sponsors',
-          position: 'left',
-          label: 'Sponsors'
         }
       ]
     },
