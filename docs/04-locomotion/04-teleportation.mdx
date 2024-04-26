@@ -2,7 +2,32 @@
 sidebar_position: 4
 ---
 
+import CenteredImage from '@site/src/components/media/centered-image';
+import teleportProviderProfileImage from './img/teleport-provider-profile.png';
+
 # Teleportation
 
-To register the locomotion service find the `GlobalServiceManager` game object in your scene and select it. You'll see a list of services registered with the service framework here. It should be looking something along side this:
+Teleportation is another way of moving around. Instead of freely moving in any direction, the user defines a target location, usually by pointing at it and then is moved automatically to said location.
 
+## Teleport Providers
+
+The toolkit comes with multiple default teleportation providers. However, there can always only be one acive teleport provider at a time. Enabling another provider will automatically disable the previously activated one.
+
+### Dash Teleport Provider
+
+Using this teleport provider, your users dash to the selected target location instead of being instantly moved there.
+
+### Blink Teleport Provider
+
+As the name suggests, this teleport provider adds a camera "blink" and smoothly fades out and back in the camera upon teleport.
+
+### Instant Teleport Provider
+
+The default active provider is the instant teleport provider. It is the most simple one and will instantly move to the target location.
+
+### Configuring A Teleport Provider
+
+Each teleport provider can be configured using its profile. Most importantly you can define the startup behaviour here. Only set "Auto Start" on the teleport provider you want to be enabled by default. You can change this at any time at runtime later.
+Configure the input action you want to listen for to trigger teleport and fine tune additional, provider specific, options if you like.
+
+<CenteredImage src={teleportProviderProfileImage} alt="A teleport provider profile. In this example we are looking at the instant teleport provider profile." />
