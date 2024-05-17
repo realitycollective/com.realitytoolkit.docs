@@ -70,14 +70,9 @@ const config: Config = {
           label: 'Showcase'
         },
         {
-          href: '/community',
+          href: '/team',
           position: 'left',
-          label: 'Community'
-        },
-        {
-          href: '/sponsors',
-          position: 'left',
-          label: 'Sponsors'
+          label: 'Team'
         }
       ]
     },

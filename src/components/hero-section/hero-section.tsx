@@ -22,12 +22,12 @@ const HeroSection: FunctionComponent = () => {
                 </div>
                 <div className="flex gap-8">
                     <Button to="/docs/get-started">Get Started</Button>
+                    <Button className="bg-[#5865F2] text-white hover:text-white" external to="https://discord.gg/YjHAQD2XT8">Join Discord</Button>
                 </div>
                 <div className="flex gap-4 mt-8 md:gap-8">
                     <a href="https://github.com/realitycollective/com.realitytoolkit.core" target="_blank">GitHub</a>
                     <a href="https://openupm.com/packages/com.realitytoolkit.core/" target="_blank">OpenUPM</a>
                     <a href="https://github.com/realitycollective/com.realitytoolkit.core/blob/main/LICENSE.md">License</a>
-                    <a href="https://discord.gg/YjHAQD2XT8">Discord</a>
                 </div>
             </div>
         </div>

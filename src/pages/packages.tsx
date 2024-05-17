@@ -7,7 +7,7 @@ export default function Packages(): JSX.Element {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title='Sponsors'
+            title='Packages'
             description={`${siteConfig.tagline}`}>
             <main className='p-4 md:p-12'>
                 <h1 className='mb-4 md:mb-8'>Packages</h1>

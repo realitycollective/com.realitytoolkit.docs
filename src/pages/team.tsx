@@ -6,10 +6,10 @@ export default function Sponsors(): JSX.Element {
     const { siteConfig } = useDocusaurusContext();
     return (
         <Layout
-            title='Sponsors'
+            title='Team'
             description={`${siteConfig.tagline}`}>
             <main className='p-4 md:p-12'>
-                <h1 className='mb-4 md:mb-8'>Sponsors</h1>
+                <h1 className='mb-4 md:mb-8'>Team</h1>
                 <Text>The Reality Toolkit would not be possible without its sponsors and contributors. Learn more about them here and how you can support the toolkit's development as well.</Text>
 
                 <h2 className='mb-4 md:mb-8'>Become A Sponsor</h2>
