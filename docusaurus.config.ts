@@ -49,8 +49,8 @@ const config: Config = {
     navbar: {
       title: 'Reality Toolkit',
       logo: {
-        alt: 'Reality Collective',
-        src: 'https://github.com/realitycollective/realitycollective.logo/blob/main/Branding/RealityCollective_IconLogo.png?raw=true'
+        alt: 'Reality Toolkit',
+        src: 'https://github.com/realitycollective/realitycollective.logo/blob/main/RealityToolkit/Logo/Icon-Square.png?raw=true'
       },
       items: [
         {
