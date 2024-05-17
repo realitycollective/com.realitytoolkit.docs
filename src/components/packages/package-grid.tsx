@@ -57,11 +57,13 @@ const inDevelopmentPackages = [
 ];
 
 const PackageGrid: FunctionComponent = () => {
+    const itemsPerRow = 3;
+
     const buildStablePackagesGroups = () => {
         const groups = [];
 
-        for (let i = 0; i < stablePackages.length; i += 3) {
-            const group = stablePackages.slice(i, i + 3);
+        for (let i = 0; i < stablePackages.length; i += itemsPerRow) {
+            const group = stablePackages.slice(i, i + itemsPerRow);
             groups.push(group);
         }
 
@@ -71,8 +73,8 @@ const PackageGrid: FunctionComponent = () => {
     const buildInDevelopmentPackagesGroups = () => {
         const groups = [];
 
-        for (let i = 0; i < inDevelopmentPackages.length; i += 3) {
-            const group = inDevelopmentPackages.slice(i, i + 3);
+        for (let i = 0; i < inDevelopmentPackages.length; i += itemsPerRow) {
+            const group = inDevelopmentPackages.slice(i, i + itemsPerRow);
             groups.push(group);
         }
 
@@ -85,17 +87,23 @@ const PackageGrid: FunctionComponent = () => {
 
             <div>
                 {buildStablePackagesGroups().map((group, groupIndex) =>
-                    <div key={groupIndex} className="flex flex-col md:flex-row gap-8 md:gap-24 mt-8 justify-stretch">
-                        {group.map((item, index) => <PackageGridItem className="basis-1/3" key={index} packageName={item.packageName} packageIdentifier={item.packageIdentifier} />)}
+                    <div key={groupIndex} className="grid md:grid-cols-3 gap-8 mt-8">
+                        {group.map((item, index) =>
+                            <div key={index}>
+                                {item !== null && <PackageGridItem className="basis-1/3" packageName={item.packageName} packageIdentifier={item.packageIdentifier} />}
+                            </div>)}
                     </div>)}
             </div>
 
-            <Title className="mt-8" level={3}>In Development</Title>
+            <Title className="mt-10" level={3}>In Development</Title>
 
             <div>
                 {buildInDevelopmentPackagesGroups().map((group, groupIndex) =>
-                    <div key={groupIndex} className="flex flex-col md:flex-row gap-8 md:gap-24 mt-8 justify-stretch">
-                        {group.map((item, index) => <PackageGridItem className="basis-1/3" key={index} packageName={item.packageName} packageIdentifier={item.packageIdentifier} />)}
+                    <div key={groupIndex} className="grid md:grid-cols-3 gap-8 mt-8">
+                        {group.map((item, index) =>
+                            <div key={index}>
+                                {item !== null && <PackageGridItem className="basis-1/3" packageName={item.packageName} packageIdentifier={item.packageIdentifier} />}
+                            </div>)}
                     </div>)}
             </div>
         </div>
