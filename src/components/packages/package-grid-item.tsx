@@ -9,7 +9,7 @@ export interface PackageGridItemProps extends ClassNameProps {
 
 const PackageGridItem: FunctionComponent<PackageGridItemProps> = (props) => {
     return (
-        <a target="_blank" className={`text-inherit hover:no-underline drop-shadow-md md:transition-all md:duration-300 md:hover:scale-105 ${props.className}`} href={`https://github.com/realitycollective/${props.packageIdentifier}`}>
+        <a target="_blank" className={`text-inherit drop-shadow-md ${props.className}`} href={`https://github.com/realitycollective/${props.packageIdentifier}`}>
             <div className="bg-[#242526] rounded-lg overflow-hidden">
                 <div className="relative bg-white">
                     <img className="object-cover block" src={`https://github.com/realitycollective/realitycollective.logo/raw/main/RealityToolkit/RepoBanners/${props.packageIdentifier}.png?raw=true`} alt={props.packageName} />
