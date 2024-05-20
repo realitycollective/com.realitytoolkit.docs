@@ -1,5 +1,5 @@
 import React, { FunctionComponent } from "react";
-import Text from "../typography/text";
+import Title from "../typography/title";
 import { ClassNameProps } from "../components.model";
 
 export interface ShowcaseGridItemProps extends ClassNameProps {
@@ -10,14 +10,12 @@ export interface ShowcaseGridItemProps extends ClassNameProps {
 
 const ShowcaseGridItem: FunctionComponent<ShowcaseGridItemProps> = (props) => {
     return (
-        <a target="_blank" className={`text-inherit hover:no-underline drop-shadow-md md:transition-all md:duration-300 ${props.className}`} href={props.url}>
+        <a target="_blank" className={`text-inherit hover:no-underline drop-shadow-md ${props.className}`} href={props.url}>
             <div className="bg-[#242526] rounded-lg overflow-hidden">
-                <div className="relative bg-white">
-                    <img className="object-cover block" src={props.imageSrc} alt={props.title} />
-                </div>
+                <img className="w-full object-cover block" src={props.imageSrc} alt={props.title} />
 
                 <div className="p-4">
-                    <Text compact>{props.title}</Text>
+                    <Title compact level={5}>{props.title}</Title>
                 </div>
             </div>
         </a>
