@@ -1,0 +1,15 @@
+---
+sidebar_position: 5
+---
+
+import CenteredImage from '@site/src/components/media/centered-image';
+import teleportAnchorInspectorImage from './img/teleport-anchor-inspector.png';
+
+# Teleportation Anchor
+
+A teleport anchor is essentially a pre-defined pose in the virtual world your users can teleport to. Instead of letting your users teleport to wherever they want, you may choose
+to only allow teleporting to anchors. For this the toolkit comes with a default `TeleportAnchor` component.
+
+Attach it to a GameObject to make that object a teleport anchor. The component comes with events you can hook up to either programmatically or in the inspector.
+
+<CenteredImage src={teleportAnchorInspectorImage} alt="The teleport anchor component inspector." />

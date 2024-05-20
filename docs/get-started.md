@@ -1,5 +1,4 @@
 ---
-sidebar_label: 'Get Started'
 sidebar_position: 0
 ---
 

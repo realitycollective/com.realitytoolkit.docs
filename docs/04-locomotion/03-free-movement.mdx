@@ -1,0 +1,29 @@
+---
+sidebar_position: 3
+---
+
+import CenteredImage from '@site/src/components/media/centered-image';
+import smoothLocomotionProviderProfileImage from './img/smooth-locomotion-provider-profile.png';
+
+# Moving Around Freely
+
+The package comes with a default implementation for smooth (free) movement. The `SmoothLocomotionProvider` enables your users to walk around in the virtual world virtually, without physical movement and
+comes with additional features, such as running.
+
+Let's take a look at the configuration options:
+
+<CenteredImage src={smoothLocomotionProviderProfileImage} alt="The smooth locomotion provider profile." />
+
+## Startup Behaviour
+
+The startup behaviour defines whether this locomotion provider will be enabled on application launch. Remember, even when this is set to auto start, the locomotion service itself might be configured to not auto start
+and thus this provider will still not work on application start until locomotion has been enabled on a global level. Locomotion providers can be disabled/enabled at runtime as well, e.g. your users might unlock
+a new type of locomotion as they progress.
+
+## Input Action
+
+This is the input action to listen for to determine movement direction.
+
+## Speed Options
+
+Use these options to configure the speed when walking and running. This can be adjusted at runtime as well.

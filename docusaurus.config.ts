@@ -49,8 +49,8 @@ const config: Config = {
     navbar: {
       title: 'Reality Toolkit',
       logo: {
-        alt: 'Reality Collective',
-        src: 'https://github.com/realitycollective/realitycollective.logo/blob/main/Branding/RealityCollective_IconLogo.png?raw=true'
+        alt: 'Reality Toolkit',
+        src: 'https://github.com/realitycollective/realitycollective.logo/blob/main/RealityToolkit/Logo/Icon-Square.png?raw=true'
       },
       items: [
         {
@@ -60,9 +60,9 @@ const config: Config = {
           label: 'Documentation'
         },
         {
-          href: '/community',
+          href: '/packages',
           position: 'left',
-          label: 'Community'
+          label: 'Packages'
         },
         {
           href: '/showcase',
@@ -70,14 +70,9 @@ const config: Config = {
           label: 'Showcase'
         },
         {
-          href: '/sponsors',
+          href: '/team',
           position: 'left',
-          label: 'Sponsors'
-        },
-        {
-          href: '/about',
-          position: 'left',
-          label: 'About'
+          label: 'Team'
         }
       ]
     },
