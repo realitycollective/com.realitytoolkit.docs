@@ -27,7 +27,7 @@ export default function Sponsors(): JSX.Element {
 
                 <div className="grid md:grid-cols-3 gap-8 mb-8">
                     <OrganizationCard name='CodeEffect' description={'CodeEffect GmbH is a team of 3D and XR experts. We are consulting, design and implementation partners for clients from all over the world.'} logoSrc={'img/Logo-CodeEffect-Full-Light.png'} url={'https://www.codeeffect.io/'} />
-                    <OrganizationCard name='Ethar Inc.' description={'Ethar is transforming human relationships with people, places and things through immersive technology. Leverage our XR integration toolset to bring your organization and projects into the next dimension.'} logoSrc={'img/ETHAR_Logo_Guide_2022_Approved-20.png'} url={'https://www.ethar.com/'} />
+                    <OrganizationCard name='Ethar Inc.' description={'Ethar is transforming human relationships with people, places and things through immersive technology. Leverage our XR integration toolset to bring your organization and projects into the next dimension.'} logoSrc={'img/ETHAR_Logo_2022.png'} url={'https://www.ethar.com/'} />
                     <OrganizationCard name='Dinomite Studios' description={'Dinomite is a full-service game design and development studio in Germany, specializing in immersive VR games and storytelling.'} logoSrc={'img/Dinomite-Main-Logo-Dark.png'} url={'https://www.dinomitestudios.com/'} />
                 </div>
 
