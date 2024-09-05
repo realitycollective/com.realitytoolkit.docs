@@ -19,7 +19,7 @@ const config: Config = {
   title: 'Reality Toolkit',
   tagline: 'Official documentation for the Reality Toolkit by the Reality Collective',
   favicon: 'img/favicon.ico',
-  url: 'https://www.realitytoolkit.io',
+  url: 'https://realitytoolkit.realitycollective.net',
   baseUrl: '/',
   organizationName: 'realitycollective',
   projectName: 'com.realitytoolkit.docs',
