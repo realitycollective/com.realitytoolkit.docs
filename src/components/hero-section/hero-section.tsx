@@ -4,7 +4,7 @@ import Title from "../typography/title";
 import Text from "../typography/text";
 import keyVisualSrc from './key-visual.jpg';
 import logoSrc from './logo-toolkit.png';
-import Button from "../layout/button";
+import PrimaryButton from "../layout/PrimaryButton";
 
 const HeroSection: FunctionComponent = () => {
     return (
@@ -21,12 +21,11 @@ const HeroSection: FunctionComponent = () => {
                     <Text>Reality Toolkit, a comprehensive, open-source, and free framework designed to expedite and enhance XR app and game development within the Unity ecosystem.</Text>
                 </div>
                 <div className="flex gap-8">
-                    <Button to="/docs/get-started">Get Started</Button>
-                    <Button className="bg-[#5865F2] text-white hover:text-white" external to="https://discord.gg/YjHAQD2XT8">Join Discord</Button>
+                    <PrimaryButton to="/docs/">Get Started</PrimaryButton>
+                    <PrimaryButton external to="https://discord.gg/YjHAQD2XT8">Join Discord</PrimaryButton>
                 </div>
                 <div className="flex gap-4 mt-8 md:gap-8">
                     <a href="https://github.com/realitycollective/com.realitytoolkit.core" target="_blank">GitHub</a>
-                    <a href="https://openupm.com/packages/com.realitytoolkit.core/" target="_blank">OpenUPM</a>
                     <a href="https://github.com/realitycollective/com.realitytoolkit.core/blob/main/LICENSE.md">License</a>
                 </div>
             </div>

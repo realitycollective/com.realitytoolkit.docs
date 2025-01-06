@@ -84,8 +84,20 @@ const config: Config = {
           items: [
             {
               label: 'Get Started',
-              to: '/docs/get-started',
+              to: '/docs/category/getting-started',
             },
+            {
+              label: 'Player',
+              to: '/docs/category/player',
+            },
+            {
+              label: 'Interactions',
+              to: '/docs/category/interactions',
+            },
+            {
+              label: 'Locomotion',
+              to: '/docs/category/locomotion',
+            }
           ],
         },
         {
