@@ -35,7 +35,7 @@ export default function Sponsors(): JSX.Element {
                 <Text>The Reality Toolkit was originally based on the MRTK (Mixed Reality Toolkit v2), created by Microsoft and MVP's, as a successor to the popular HoloToolkit. Even though the Reality Toolkit has taken its own path and does things differently in many areas, we would like to recognize a few people who have left their signature on its journey:</Text>
                 <ul>
                     <li><a href='https://github.com/stephenhodgson' title='Stephen Hodgson'><Text compact>Stephen Hodgson</Text></a></li>
-                    <li><a href='https://github.com/Cangi' title='Rony Portelli'><Text compact>Rony Portelli</Text></a></li>
+                    <li><a href='https://github.com/zeratul9911' title='Rony Portelli'><Text compact>Rony Portelli</Text></a></li>
                 </ul>
             </main>
         </Layout>
